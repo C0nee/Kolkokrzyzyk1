@@ -100,7 +100,4 @@ while turns<9:
     turns += 1
     if turns ==9:
         print("tie")
-    if user == True:
-        user = False
-    else:
-        user = True
+    user = not user
